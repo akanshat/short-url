@@ -3,11 +3,33 @@
   padding: 10px;
 }
 
+.custom-shape-divider-bottom-1601546614 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1601546614 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 95px;
+}
+
+.custom-shape-divider-bottom-1601546614 .shape-fill {
+  fill: #ffffff;
+}
+
 .app-header {
   color: rgb(255, 255, 255);
   font-weight: 900;
   font-size: 15vh;
   margin-top: 20px;
+  font: outline;
 }
 
 .input-form {
@@ -46,4 +68,9 @@ select {
   font-size: 1.2em;
   letter-spacing: 0.05em;
   font-weight: 900;
+}
+
+.submit-button:hover {
+  background: #fcb842;
+  border: 1px solid #f79e02;
 }
